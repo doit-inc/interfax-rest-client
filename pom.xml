@@ -75,5 +75,5 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
     <description>InterFAX REST サービス用サンプルコード</description>
-    <name>interfax-rest-cliest</name>
+    <name>interfax-rest-client</name>
 </project>
