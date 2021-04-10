@@ -35,6 +35,7 @@ REST APIの分類は、そのままSTUBとして分類されています。main�
 <h4>3-2. Outbound Credits</h4>
 与信限度額に対する残高を確認できます。<br>
 <br>
+【mainパッケージ内のサンプルの呼出コード】
 <table>
 <tr>
 <td>ExecOutboundCredits</td>
