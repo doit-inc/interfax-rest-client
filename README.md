@@ -28,7 +28,7 @@ REST APIの分類は、そのままSTUBとして分類されています。main�
 【mainパッケージ内のサンプルの呼出コード】
 <table>
 <tr>
-<td style="background-color: lightgray">ExecGetAddressBooks</td>
+<td style="background-color: lightgray"><a href="blob/main/src/main/java/main/ExecGetAddressBooks.java">ExecGetAddressBooks</a></td>
 <td>[アカウント管理WEB]にて登録済みの [リスト](AddressBooks)の一覧を取得</td>
 </tr>
 </table>
