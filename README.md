@@ -19,7 +19,6 @@ REST API の戻り値は、MethodResponseクラスが基本となりますが、
 いずれにしろREST API呼出の成否は、MethodResponse.isSuccess()によって確認を行います。<br>
 尚、通信エラーなどの場合は、javax.ws.rs.ProcessingExceptionがスローされます。<br>
 <img src="return.png">
-
 <h3>3. REST APIの分類と呼出サンプル</h3>
 REST APIの分類は、そのままSTUBとして分類されています。mainパッケージ内に、多数のサンプル呼出コードを提供しています。
 これらを参考として頂ければ、呼出手順や結果の取得方法などがご理解頂けるかと存じます。
@@ -31,6 +30,15 @@ REST APIの分類は、そのままSTUBとして分類されています。main�
 <tr>
 <td>ExecGetAddressBooks</td>
 <td>[アカウント管理WEB]にて登録済みの [リスト](AddressBooks)の一覧を取得</td>
+</tr>
+</table>
+<h4>3-2. Outbound Credits</h4>
+与信限度額に対する残高を確認できます。<br>
+<br>
+<table>
+<tr>
+<td>ExecOutboundCredits</td>
+<td>ユーザの与信限度額残高を取得</td>
 </tr>
 </table>
 </div>
