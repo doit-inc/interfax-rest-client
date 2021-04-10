@@ -1,5 +1,3 @@
-# interfax-rest-client
-
 <body>
 <h1>■ InterFAX REST サービス アクセスサンプル</h1>
 
@@ -8,8 +6,10 @@
 
 <div style="border-bottom: solid 1px">
     <h3>1. 前提とする環境</h3>
+    -----
     当該サンプルプログラムは、Java8の環境を基準に動作を確認しています。
     <h3>2. アーキテクチャ</h3>
+    -----
     RESTサービスの呼出は、以下の5つのSTUB(クラス)に分類して実装されています。<br>
     各STUBは、接続先情報を提供するConnectorクラスを使ってインスタンス化します。<br>
     その後、アプリケーションは、各STUBで提供されるそれぞれのREST APIの呼出を行います。<br>
