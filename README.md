@@ -28,7 +28,7 @@ REST APIの分類は、そのままSTUBとして分類されています。main�
 【mainパッケージ内のサンプルの呼出コード】
 <table>
 <tr>
-<td>ExecGetAddressBooks</td>
+<td style="background-color: lightgray">ExecGetAddressBooks</td>
 <td>[アカウント管理WEB]にて登録済みの [リスト](AddressBooks)の一覧を取得</td>
 </tr>
 </table>
@@ -38,7 +38,7 @@ REST APIの分類は、そのままSTUBとして分類されています。main�
 【mainパッケージ内のサンプルの呼出コード】
 <table>
 <tr>
-<td>ExecOutboundCredits</td>
+<td style="background-color: lightgray">ExecOutboundCredits</td>
 <td>ユーザの与信限度額残高を取得</td>
 </tr>
 </table>
