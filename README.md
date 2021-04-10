@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <head><title>■ InterFAX REST サービス アクセスサンプル</title></head>
     <body>
         <h1>■ InterFAX REST サービス アクセスサンプル</h1>
 
@@ -40,4 +37,3 @@
             </table>
         </div>
     </body>
-</html>
