@@ -29,11 +29,5 @@
     「アカウント管理WEB」(https://secure.interfax.net) にてご利用者様が設定されている、リスト(Address Book)を取得できます。<br>
     <br>
     【mainパッケージ内のサンプルの呼出コード】
-    <table>
-        <tr>
-            <td>ExecGetAddressBooks</td>
-            <td>[アカウント管理WEB]にて登録済みの [リスト](AddressBooks)の一覧を取得</td>
-        </tr>
-    </table>
 </div>
 </body>
