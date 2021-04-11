@@ -39,7 +39,7 @@ REST APIの分類は、そのままSTUBとして分類されています。main�
 【mainパッケージ内のサンプルの呼出コード】
 <table>
 <tr>
-<td style="background-color: lightgray">ExecOutboundCredits</td>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecOutboundCredits.java">ExecOutboundCredits</a></td>
 <td>ユーザの与信限度額残高を取得</td>
 </tr>
 </table>
