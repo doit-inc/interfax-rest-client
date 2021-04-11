@@ -43,6 +43,32 @@ REST APIの分類は、そのままSTUBとして分類されています。main�
 <td>ユーザの与信限度額残高を取得</td>
 </tr>
 </table>
+<h4>3-3. Receiving Faxes</h4>
+受信したFAXへアクセスします。受信記録の一覧取得や、受信イメージの取得が行えます。<br>
+<br>
+【mainパッケージ内のサンプルの呼出コード】
+<table>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecReceivingFaxesGetList.java">ExecReceivingFaxesGetList</a></td>
+<td>受信済みFAX一覧のステータスを取得</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecReceivingFaxesGetImage.java">ExecReceivingFaxesGetImage</a></td>
+<td>FAX受信イメージを取得</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecReceivingFaxesMark.java">ExecReceivingFaxesMark</a></td>
+<td>特定の FAX受信に関し既読マーク設定</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecReceivingFaxesResend.java">ExecReceivingFaxesResend</a></td>
+<td>特定の FAX受信に関する受信転送メールの再送を指示</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecReceivingFaxesGetFoprwardingEMails.java">ExecReceivingFaxesGetFoprwardingEMails</a></td>
+<td>受信転送メールの送付記録を取得</td>
+</tr>
+</table>
 </div>
 </body>
 </html>
