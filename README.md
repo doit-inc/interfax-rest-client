@@ -69,6 +69,69 @@ REST APIの分類は、そのままSTUBとして分類されています。main�
 <td>受信転送メールの送付記録を取得</td>
 </tr>
 </table>
+<h4>3-4. Sending Faxes</h4>
+FAX送信をリクエストします。1回のFAX送信要求で指定できる送付先は1つです。<br>
+また、過去のFAX送信記録の一覧取得や、送信イメージの取得なども行えます<br>
+<br>
+【mainパッケージ内のサンプルの呼出コード】
+<table>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendFaxWithSingleDocument.java">ExecSendFaxWithSingleDocument</a></td>
+<td>単一のFAXコンテンツを使ったFAX送信</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendFaxWithSingleHtml.java">ExecSendFaxWithSingleHtml</a></td>
+<td>単一のFAXコンテンツ (HTML) を使ったFAX送信</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendFaxWithSingleHtmlLink.java">ExecSendFaxWithSingleHtmlLink</a></td>
+<td>外部の HTML ページを使ったFAX送信</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendFaxWithSingleText.java">ExecSendFaxWithSingleText</a></td>
+<td>単一の Text コンテンツを使ったFAX送信</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendFaxWithMultiDocuments.java">ExecSendFaxWithMultiDocuments</a></td>
+<td>複数のFAXコンテンツを使ったFAX送信</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendFaxWithMixedDocuments.java">ExecSendFaxWithMixedDocuments</a></td>
+<td>テキスト及びアップロードコンテンツによるFAX送信</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendFaxCancelFax.java">ExecSendFaxCancelFax</a></td>
+<td>FAX送信のキャンセル</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendFaxGetCompletedFaxList.java">ExecSendFaxGetCompletedFaxList</a></td>
+<td>完了済み FAX送信の状態取得</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendFaxGetFaxList.java">ExecSendFaxGetFaxList</a></td>
+<td>FAX送信の一覧取得</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendFaxGetFaxRecord.java">ExecSendFaxGetFaxRecord</a></td>
+<td>特定のFAX送信の状態を取得</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendFaxGetImage.java">ExecSendFaxGetImage</a></td>
+<td>特定のFAX送信のイメージを取得</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendFaxHideFax.java">ExecSendFaxHideFax</a></td>
+<td>FAX送信の状態情報の秘匿化</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendFaxResendFax.java">ExecSendFaxResendFax</a></td>
+<td>完了済みFAX送信の再送付</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendFaxSearchFaxList.java">ExecSendFaxSearchFaxList</a></td>
+<td>FAX送信の記録の検索</td>
+</tr>
+</table>
 </div>
 </body>
 </html>
