@@ -24,13 +24,13 @@ REST API の戻り値は、MethodResponseクラスが基本となりますが、
 REST APIの分類は、そのままSTUBとして分類されています。mainパッケージ内に、多数のサンプル呼出コードを提供しています。
 これらを参考として頂ければ、呼出手順や結果の取得方法などがご理解頂けるかと存じます。
 <h4>3-1. Addressbooks</h4>
-「アカウント管理WEB」(https://secure.interfax.net) にてご利用者様が設定されている、リスト(Address Book)を取得できます。<br>
+[<a href="https://secure.interfax.net" target="_blank">アカウント管理WEB</a>]にて、ご利用者様が設定されているリスト(Address Book)を取得できます。<br>
 <br>
 【mainパッケージ内のサンプルの呼出コード】
 <table>
 <tr>
 <td style="background-color: lightgray"><a href="src/main/java/main/ExecGetAddressBooks.java">ExecGetAddressBooks</a></td>
-<td>[アカウント管理WEB]にて登録済みの [リスト](AddressBooks)の一覧を取得</td>
+<td>[<a href="https://secure.interfax.net" target="_blank">アカウント管理WEB</a>]にて登録済みの [リスト](AddressBooks)の一覧を取得</td>
 </tr>
 </table>
 <h4>3-2. Outbound Credits</h4>
