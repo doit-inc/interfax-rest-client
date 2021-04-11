@@ -1,4 +1,5 @@
-<html>
+<html lang="ja">
+<head><meta charset="utf-8"/></head>
 <body>
 <h1>■ InterFAX REST サービス アクセスサンプル</h1>
 このプロジェクトコードでは、InterFAX REST サービスへアクセスする為の Java サンプルプログラムを公開しています。
