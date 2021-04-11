@@ -179,6 +179,43 @@ FAX送信をリクエストします。1回のFAX送信要求で複数の送付�
 <td>XL形式によるFAX送信</td>
 </tr>
 </table>
+<h4>3-6. Uploading Documents</h4>
+FAX送信用に、事前にコンテンツをアップロードします。<br>
+FAX送信要求の際、投入できるコンテンツのサイズには上限があります (詳細は「4. InterFAXサービスのシステムの制限値」を参照)。<br>
+この上限を超えるサイズのコンテンツを利用場合、予めアップロードを行い、その際に取得したURLをFAX送信時に指定します。<br>
+<br>
+【mainパッケージ内のサンプルの呼出コード】
+<table>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendFaxWithUploadingDocumehts.java">ExecSendFaxWithUploadingDocumehts</a></td>
+<td>複数のアップロードコンテンツを使ったFAX送信</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecUploadingGetList.java">ExecUploadingGetList</a></td>
+<td>アップロード済みFAX送信コンテンツ一覧の取得</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecUploadingGetStatus.java">ExecUploadingGetStatus</a></td>
+<td>アップロード済みFAX送信コンテンツの状態取得</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecUploadingCancel.java">ExecUploadingCancel</a></td>
+<td>アップロード済みFAX送信コンテンツを破棄</td>
+</tr>
+</table>
+<h3>4. InterFAXサービスのシステムの制限値</h3>
+InterFAXサービスをご利用される際は、FAX送信リクエストの際に投入可能なFAXコンテンツサイズなど、幾つか制限値がございます。<br>
+詳細は、<a href="https://www.interfax.jp/system/info_limit.html">こちら</a>をご参照ください。
+<h3>5. サンプルコードにおける制限</h3>
+<ul>
+<li>サンプルコードは、ご利用者様業務要件内での動作を保証させて頂くものではございません。<br>
+ご利用される場合は、充分な事前評価の実施をお願い致します。</li>
+<li>サンプルコードでは、異常発生時のリトライ等は考慮されていません。<br>
+InterFAX REST サービスはinternetを経由して提供されるサービスの為、InterFAXサービス側の過負荷や通信経路上の問題などで正しくリクエストが受け付けられない場合などがございます。<br>
+異常を検知された場合は、適宜リトライの実施をお願い致します。</li>
+<li>[Uploading Documents]に対してTextを投入する場合は、必ずUTF-8のCharsetで投入して下さい。<br>
+[Sending Faxes][Send Fax]などの場合は、UTF-8以外でも対応可能ですが、必ず適切なCharsetを指定してください。</li>
+</ul>
 </div>
 </body>
 </html>
