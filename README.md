@@ -132,6 +132,53 @@ FAX送信をリクエストします。1回のFAX送信要求で指定できる�
 <td>FAX送信の記録の検索</td>
 </tr>
 </table>
+<h4>3-5. Sending Batches</h4>
+FAX送信をリクエストします。1回のFAX送信要求で複数の送付先が指定できます。<br>
+また、過去のFAX送信記録の一覧取得や、送信イメージの取得なども行えます<br>
+<br>
+【mainパッケージ内のサンプルの呼出コード】
+<table>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendFaxWithMultiDestination.java">ExecSendFaxWithMultiDestination</a></td>
+<td>複数宛先を指定した<b>一括FAX送信 (BATCH)</b> の実施</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendFaxWithAddressBook.java">ExecSendFaxWithAddressBook</a></td>
+<td>リスト(Address Book)からFAX送付先を指定して送信</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendBatchCancelBatch.java">ExecSendBatchCancelBatch</a></td>
+<td>一括FAX送信のキャンセル</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendBatchGetBatchChildrenFaxes.java">ExecSendBatchGetBatchChildrenFaxes</a></td>
+<td>一括FAX送信の状態取得</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendBatchGetBatchList.java">ExecSendBatchGetBatchList</a></td>
+<td>一括FAX送信の一覧取得</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendBatchGetBatchRecord.java">ExecSendBatchGetBatchRecord</a></td>
+<td>一括FAX送信の状態取得</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendBatchGetImage.java">ExecSendBatchGetImage</a></td>
+<td>一括FAX送信のFAXイメージ取得</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendBatchHideBatch.java">ExecSendBatchHideBatch</a></td>
+<td>一括FAX送信の秘匿化</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendBatchResendBatch.java">ExecSendBatchResendBatch</a></td>
+<td>一括FAX送信の再送信</td>
+</tr>
+<tr>
+<td style="background-color: lightgray"><a href="src/main/java/main/ExecSendFaxWithXMLMultiDestination.java">ExecSendFaxWithXMLMultiDestination</a></td>
+<td>XL形式によるFAX送信</td>
+</tr>
+</table>
 </div>
 </body>
 </html>
