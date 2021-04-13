@@ -35,7 +35,7 @@ public class ExecSendFaxWithSingleHtmlLink {
                 Resource resource = Resource.get();
                 Connector conn= new Connector(resource.getId(), resource.getPassword());
                 URILinkDocument html = new URILinkDocument(
-                    new URI("https://www.interfax.jp/inquiry/index.html"));
+                    new URI("http://www.do-it.co.jp/main/aboutus/aboutus.html"));
 
                 // send fax
                 SendingFaxes sending = new SendingFaxes(conn);
